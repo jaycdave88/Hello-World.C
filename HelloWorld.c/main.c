@@ -6,10 +6,14 @@
 //  Copyright (c) 2015 DEV MODE. All rights reserved.
 //
 
-#include <stdio.h>
+#include<stdio.h>
+// include a header of standard input and output
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
+// everything in C happens within a function
+
+int main(){ // main function that returns an integer
+    printf("Hello World");
+    printf("\nThis is my fist C program\n");
+    return 1;
+
+}// end main
